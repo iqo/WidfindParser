@@ -1,0 +1,13 @@
+#Config for the Widefind sensor
+
+[connection]
+#MQTT IP for widefind
+broker_ip = "widefind.lab.ltu.se"
+broker_port = 1883
+blacklist = ['blacklist']
+entrypoint = "entrypoint"
+entrypoint_port = "entrypoint-port"
+
+[asynctimer]
+#Await asyncio sleep time
+aast = 1    
